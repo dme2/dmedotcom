@@ -1,7 +1,7 @@
 # Example routing for Mighttpd 2
 
 # Domain lists
-[localhost]
+[www.letslearngraphics.io]
 
 # Entries are looked up in the specified order
 # All paths must end with "/"
