@@ -1,0 +1,18 @@
+#!/bin/bash
+
+read -r -p 'enter commit message: ' commit_message
+
+stack exec site rebuild
+
+git add .
+
+git add -u
+
+git commit -m "$commit_message"
+
+git push origin master
+
+echo syncing to web server
+
+rsync -a /Users/dave/dmedotcom/_site/ root@67.205.140.199:/var/www/dmedotcom
+
