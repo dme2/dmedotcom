@@ -1,3 +1,3 @@
 My blog & homepage.
 
-Made using Hakyll. Planning on hosting this with mighttpd2.
+Made using Hakyll. Hosted with nginx.
