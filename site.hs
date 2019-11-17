@@ -59,6 +59,9 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+    match "res.html" $ do
+        route idRoute
+        compile $  copyFileCompiler >>= relativizeUrls
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
