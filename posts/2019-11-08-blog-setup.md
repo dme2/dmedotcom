@@ -14,7 +14,7 @@ For web-hosting I'm using a $5/month VPS from Digital Ocean. The set up process 
   listen [::]:443 default_server; 
 
   ssl on;
-  ssl_certificate /etc/letsencrypt/live/dme2.dev/fullchain.pem;
+  ssl_certificate /etc/letsencrypt/live/dme2.dev/fullchain.p
   ssl_certificate_key /etc/letsencrypt/live/dme2.dev/privkey.pem;
 
   root /var/www/dmedotcom; 
