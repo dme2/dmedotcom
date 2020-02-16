@@ -5,5 +5,5 @@ I'm dave. I'm currently working as a software engineer in Chicago. I enjoy compu
 
 Here's my `github <https://github.com/notdave22/>`_ and here's my `resume <images/resume2.pdf>`_.
 
-You can reach via email at: dme2223@gmail.com
+You can reach me via email at: dme2223@gmail.com
 
