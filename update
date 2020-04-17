@@ -14,5 +14,5 @@ git push origin master
 
 echo syncing to web server
 
-rsync -a /Users/dave/dmedotcom/_site/ root@67.205.140.199:/var/www/dmedotcom
+rsync -a /home/dave/projects/dmedotcom/_site/ root@67.205.140.199:/var/www/dmedotcom
 
