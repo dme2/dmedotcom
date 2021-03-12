@@ -33,6 +33,7 @@ code {
     padding-left: 4px;
     padding-right: 4px;
     width: min-content;
+    overflow: auto;
 }
 
 pre code {
