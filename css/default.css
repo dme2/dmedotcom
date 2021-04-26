@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: #000;
   background-color: #FAEBD7;
 }
@@ -27,7 +27,7 @@ nav a {
 }
 
 code {
-    font: 8px monospace, sans-serif;
+    font: 11px monospace, sans-serif;
     background-color: rgb(300, 250, 250);
     border: 1px solid rgb(200, 200, 200);
     padding-left: 4px;
